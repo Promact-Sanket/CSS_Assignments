@@ -1,0 +1,50 @@
+.mainContainer{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.mainContainer > div {
+    border: 1px solid black;
+}
+.thought {
+    background-color: #FF9999;
+    padding: 20px;
+    text-align: center;
+  }
+  .imagesection{
+    display: flex;
+    flex-grow: 1;
+  }
+  .thoughtImage{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 5px solid #FFFF00;
+  }
+  #thoughtImage
+  {
+    width: 600px;
+    height: 295px;
+  }
+  .profileclass
+  {
+    flex: 1;
+    background-color: #ECECFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #profile{
+    width: 80px;
+    height: 80px;
+    background-color: #000;
+    margin-bottom: 20px;
+  }

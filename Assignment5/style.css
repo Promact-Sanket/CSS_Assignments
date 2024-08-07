@@ -1,0 +1,384 @@
+/* Remove the defualt spaces or defualt padding / margin */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: black;
+    color: white;
+  }
+  nav {
+    height: 40px;
+  }  
+  
+  nav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+
+  header ul {
+    display: flex;
+    list-style: none;
+    margin-left: 80px;
+    font-size: 1em;
+    padding: 3px;
+  }
+  
+  header li {
+    padding: 6px;
+    border: 1px solid black;
+  }
+
+  h2 {
+    font-size: 2em;
+    margin-bottom:4px   ;
+  }
+  p{
+    word-spacing: 3px;
+  }
+  /* Styles for all a href links */
+  a {
+    padding: 6px;
+    border-radius: 2px;
+    transition: 1s;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* adds the style for both container in commonly */
+  .first-container,
+  .second-container {
+    background-color: #ddf0ff;
+    display: flex;
+    padding: 20px 65px;
+  }
+  
+  .second-container {
+    background-color: #68edb6;
+  }
+  
+  .first-content,
+  .second-content {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    min-height: 325px;
+  }
+  /*Adds the style for the both images 1st and 2nd sections*/
+  .wiringHarnessImage {
+    width: 330px;
+    height: 330px;
+  }
+  
+  .first-image{
+padding-right: 30px;
+  }
+
+  .wiringHarnessImage:hover,
+  .vr-image:hover {
+    transition: 0.6s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transform: scale(1.01);
+  }
+  
+  .vr-image {
+    margin: 20px 10px 0 20px;
+  }
+  /* Styles for the learn more button */
+  .first-learn-more-btn,
+  .second-learn-more-btn {
+    background-color: #0780e0;
+    border: none;
+    width: 120px;
+    height: 35px;
+    min-height: 35px;
+    border-radius: 6px;
+    color: white;
+    margin-top: 15px;
+  }
+  
+  .second-learn-more-btn {
+    background-color: #009f7b;
+  }
+  
+  .arrow {
+    color: #0780e0;
+  }
+  .arrow2 {
+    color: #009f7b;
+  }
+  
+  /* Hover effect for learn buttons and arrow icons */
+  .first-learn-more-btn:hover .arrow,
+  .second-learn-more-btn:hover .arrow2 {
+    color: white;
+    transition: 0.6s;
+    transform: translateX(6px);
+  }
+  
+  .first-learn-more-btn:hover {
+    background-color: #1095ff;
+  }
+  
+  .second-learn-more-btn:hover {
+    background-color: #00bc6e;
+  }
+  
+/*syle for the third section i.e. animation box*/
+  .third-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Styles for all boxes in the animation container i.e. thired container */
+  .boxes {
+    border: 1px solid grey;
+    height: 232px;
+    width: 178px;
+    border-radius: 5px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  /* Styles for card icon for icons */
+  .card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: -27px;
+  }
+  
+  .card-header {
+    position: relative;
+    top: -12px;
+  }
+  
+  .card-content {
+    position: relative;
+    top: 10px;
+  }
+  
+  .boxes:hover .card-icon {
+    background-color: white;
+  }
+
+  /*Animation for the icon rotaion*/
+  .boxes:hover i {
+    transform: rotate(360deg);
+    transition: transform 0.6s ease-in-out;
+  }
+  
+  /*Animation for the box six=ze increase ofter hover*/
+  .boxes:hover {
+    transform: scale(1.05);
+    color: white;
+  }
+  
+  .music-icon {
+    border: 1px solid #ff4ef5;
+  }
+  
+  .music-icon i {
+    font-size: 15px;
+    color: #ff4ef5;
+  }
+  
+  .music:hover {
+    transition: 0.6s;
+    background-color: #ff4ef5;
+  }
+  
+  .download-icon {
+    border: 1px solid #009f7b;
+  }
+  
+  .download-icon i {
+    font-size: 15px;
+    color: #009f7b;
+  }
+  
+  .pictures:hover {
+    transition: 0.6s;
+    background-color: #ffc31b;
+  }
+  
+  .pic-icon {
+    border: 1px solid #ffc31b;
+  }
+  
+  .download:hover {
+    transition: 0.6s;
+    background-color: #009f7b;
+  }
+  
+  .pic-icon i {
+    font-size: 15px;
+    color: #ffc31b;
+  }
+  
+  .connect-icon {
+    border: 1px solid #4c8aff;
+  }
+  
+  .connect-icon i {
+    font-size: 15px;
+    color: #4c8aff;
+  }
+  
+  .connect:hover {
+    transition: 0.6s;
+    background-color: #4c8aff;
+  }
+  
+  .location-icon {
+    border: 1px solid #515151;
+  }
+  
+  .location-icon i {
+    font-size: 15px;
+    color: #515151;
+  }
+  
+  .location:hover {
+    transition: 0.6s;
+    background-color: #515151;
+  }
+  
+  /* Styles for forth container i.e. footer*/
+  .forth-container {
+    display: flex;
+    background-color: #515151;
+    padding: 29px 261px 28px 100px;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    color: rgb(180, 183, 185);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-content ul li:first-child {
+    font-size: 1.2em;
+    color: #ebe7e7;
+  }
+  
+  .footer-content ul li {
+    padding: 2px;
+  }
+  
+  .footer-content ul li:hover {
+    transition: 0.5s;
+    color: white;
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+  
+  /* Media query for devices with max-width of 600px for mobile */
+  @media (max-width: 600px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      background-color: black;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .toggle-button {
+      display: block;
+      margin-left: auto;
+      color: grey;
+    }
+  
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    .nav-container {
+      justify-content: space-between;
+    }
+    .first-pic {
+      width: 100%;
+    }
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      background-color: black;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .toggle-button {
+      display: block;
+    }
+  
+    .first-container {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .second-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .boxes {
+      width: 400px;
+      height: 200px;
+    }
+  
+    .forth-container {
+      flex-direction: column;
+      padding-left: 5px;
+    }
+  
+    header ul {
+      margin-left: 0;
+    }
+    .footer-content ul li:first-child {
+      margin-top: 10px;
+    }
+  }
+  
+  /* Media query for devices with width between 600px and 1050px  for big screens and porat tabs */
+  @media (min-width: 600px) and (max-width: 1050px) {
+    .boxes {
+      width: 350px;
+      height: 200px;
+    }
+  
+    .forth-container {
+      padding: 50px 60px 50px 20px;
+    }
+  }
+  

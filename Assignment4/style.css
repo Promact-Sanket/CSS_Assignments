@@ -1,0 +1,37 @@
+/*reset the defualt margin*/
+p {
+    margin: 5px;
+  }
+
+/* Styling for the image 1*/
+.first-image {
+    border: 1px solid black;
+    height: 310px;
+  }
+  .first-half {
+    height: 282px;
+    background: url("Assignment4.PNG") no-repeat top/cover;
+  }
+  
+  /* Styling for the image 2*/
+  .second-image {
+    margin-top: 40px;
+    border: 2px solid black;
+    height: 345px;
+  }
+  .second-half {
+    height: 300px;
+    background: url("Assignment4.PNG") no-repeat bottom/cover;
+  }
+  
+  /* Styling for the image 3*/
+  .third-image {
+   margin: 30px;
+   
+  }
+  .full {
+    margin: 0 auto;
+    background: url("Assignment4.PNG") no-repeat center/cover;
+    height: 300px;
+    width: 500px;
+  }

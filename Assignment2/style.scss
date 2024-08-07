@@ -1,0 +1,63 @@
+
+$yellow: #d8da3d;
+$blue: #0000FF;
+$orange: #FF7F00;
+$purple:#80007e;
+
+body {
+    background-color: $yellow;
+    color: $purple;
+    display: flex;
+    font-family: 'Times New Roman', serif;   
+  }
+  #container {
+    margin: 5px 5px 5px 20px;
+    width: 100%;
+  }
+ 
+  .sidebar-item {
+    background-color: white;
+    color: $purple;
+    margin: 5px 0;
+    padding: 5px;
+  }
+  .sidebar {
+    background-color:$yellow;
+    width: 200px;
+    padding: 10px;
+      #blue {
+        border-right:15px solid $blue
+    
+      }
+      #orange {
+        border-right:15px solid $orange
+      }
+  }
+
+  hr {
+    border-bottom: $purple dashed 1px;
+  }
+  #border {
+    color: black;
+    width: 80%;
+        #firstBlock{
+          border:2px dashed black ;
+          padding: 10px;
+          font-size: 120%;
+        }
+        #secondBlock{
+          border: 2px dashed $orange;
+          text-align: right;
+          padding: 10px;
+          font-size: 120%;
+        }
+        #thirdBlock{
+          border: 2px dotted $blue;          
+          text-align: center;
+          padding: 10px;
+          font-size: 120%;
+          font-weight: bold;
+         }
+
+  }
+ 
